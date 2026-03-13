@@ -10,7 +10,7 @@ body {
 
 p,
 div {
-    background-color: beige;
+    background-color: rgb(236, 245, 220);
     margin: 1rem;
     padding: 1rem;
 }
@@ -23,7 +23,7 @@ span {
 code {
     margin: 0;
     padding: 0;
-    color: green;
+    color: rgb(0, 0, 128);
     font-size: 1.2rem;
 }
 
