@@ -4,10 +4,12 @@ body {
 }
 
 .flex-container {
-    border: 3px dashed darkcyan;
+    border: 3px solid darkcyan;
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .flex-item {

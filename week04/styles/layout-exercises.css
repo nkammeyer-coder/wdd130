@@ -14,6 +14,7 @@ div {
     margin: 1rem;
     border: 1px dashed;
     padding: 1rem;
+
 }
 
 .one {
@@ -23,18 +24,22 @@ div {
 
 .flex {
     background-color: #aba;
-    /* write declarations here */
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid {
     background-color: #abb;
-    /* enter declarations here */
+    display: grid;
+    place-items: center;
 
 }
 
 .container2 {
-    /* write declarations here */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 
