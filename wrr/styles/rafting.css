@@ -191,7 +191,7 @@ header nav {
 footer {
     display: flex;
     justify-content: space-between;
-    align-items: right;
+    align-items: flex-end;
     padding: 10px 20px;
 
 }
