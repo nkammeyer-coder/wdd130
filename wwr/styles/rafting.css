@@ -44,6 +44,7 @@ article {
     text-decoration: none;
 }
 
+/*ABOUT PAGE HERO STYLES*/
 .hero {
     position: relative;
 }
@@ -61,7 +62,7 @@ h1 {
     padding: 10px;
     text-align: center;
     opacity: .8;
-    color: white;
+    color: black;
 }
 
 h2 {
@@ -103,6 +104,7 @@ h2 {
     margin: 0 20px;
 }
 
+/*SOCIAL MEDIA */
 .socialmedia img {
     width: 50px;
     height: auto;
@@ -110,6 +112,7 @@ h2 {
 
 }
 
+/*HEADER */
 header {
     display: grid;
     grid-template-columns: 200px 1fr;
@@ -132,6 +135,7 @@ header nav {
     gap: 10px;
 }
 
+/* ABOUT PAGE HISTORY */
 .history {
     display: grid;
     grid-template-columns: 1fr 120px 1fr;
@@ -158,6 +162,7 @@ header nav {
 
 }
 
+/* ABOUT PAGE ADVENTURES */
 .adventures {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -188,10 +193,116 @@ header nav {
     font-weight: bold;
 }
 
+/*FOOTER*/
 footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     padding: 10px 20px;
 
+}
+/* CONTACT PAGE */
+.contact-page .contact-info {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contact-page .contact-info h1 {
+    position: static;
+    width: auto;
+    padding: 0;
+    opacity: 1;
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+.contact-page .contact-info p {
+    margin: 6px 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.contact-page .contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    margin: 30px 0;
+}
+
+.contact-page .map iframe {
+    width: 100%;
+    height: 350px;
+    display: block;
+    border: 1px solid #999;
+}
+
+.contact-page .contact-form {
+    display: grid;
+    gap: 5px;
+    
+}
+
+.contact-page .contact-form label,
+.contact-page .contact-form p {
+    font-weight: bold;
+}
+
+.contact-page .contact-form input[type="text"],
+.contact-page .contact-form input[type="email"],
+.contact-page .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #999;
+    font-family: inherit;
+    font-size: 1rem;
+    border-radius: 8px; 
+}
+
+.contact-page .contact-form textarea {
+    resize: vertical;
+}
+
+.contact-page .contact-form input[type="radio"],
+.contact-page .contact-form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.contact-page .contact-form button {
+    padding: 10px;
+    border: 1px solid #999;
+    background-color: #e44848;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+.contact-page .employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.contact-page .employees h2 {
+    grid-column: 1 / 6;
+    background: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contact-page .employees img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+}
+
+.contact-page .employees figcaption {
+    margin-top: 10px;
+    font-weight: bold;
 }
